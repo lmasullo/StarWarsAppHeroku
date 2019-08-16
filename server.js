@@ -6,6 +6,7 @@ const path = require('path');
 // Sets up the Express App
 // =============================================================
 const app = express();
+// Set Port
 const PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
